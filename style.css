@@ -1,4 +1,10 @@
 
+/*This is for the footer to sit right*/
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 /* Navbar */
 .navbar{
     background-color: #ffff;
@@ -18,10 +24,23 @@
     bottom: 0
 }
 
+#navspacer{
+width:70%
+}
+
+#navbarNav{
+z-index: 99;
+margin-top: 18px;
+background-color: white;
+padding-left: 10px;
+border-radius: 1%;
+}
+
 /* Body - About Me */
 
 body{
     background-image: url(./assets/leaves-pattern.png);
+    margin-bottom: 60px;
 }
 
 #AboutMeBox{
@@ -35,4 +54,30 @@ h1{
     margin: 0px 10px 0 10px;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cardimg{
+margin-top: 10px
+
+}
+
+#imgme{
+    width: 200px;
+    height: auto;
+}
+
+/* Footer */
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: #ffff; 
+    background-color: #666666;
+    border-top:  3px solid #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+
 }
