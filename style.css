@@ -6,11 +6,10 @@ html{
 }
 
 /* Navbar */
+
 .navbar{
     background-color: #ffff;
     border-bottom: 2px solid #cccccc;
-    height: 68px;
-    margin-bottom: 30px;
 }
 
 #nameheader{
@@ -21,7 +20,7 @@ html{
     margin-left: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute; 
-    bottom: 0
+    top: 0;
 }
 
 #navspacer{
@@ -29,7 +28,6 @@ width:70%
 }
 
 #navbarNav{
-z-index: 99;
 margin-top: 18px;
 background-color: white;
 padding-left: 10px;
@@ -46,6 +44,7 @@ body{
 .bodybox{
     background-color: #ffff;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 h1{
@@ -104,7 +103,7 @@ h5{
     border-radius: 0;
 }
 
-#portfoliotitles{
+.portfoliotitles{
     background-color:#4aaaa5;
 }
 
