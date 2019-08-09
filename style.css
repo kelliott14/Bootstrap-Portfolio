@@ -36,16 +36,16 @@ padding-left: 10px;
 border-radius: 1%;
 }
 
-/* Body - About Me */
+/* Body */
 
 body{
     background-image: url(./assets/leaves-pattern.png);
     margin-bottom: 60px;
 }
 
-#AboutMeBox{
+.bodybox{
     background-color: #ffff;
-            margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h1{
@@ -56,6 +56,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*About me page - index.html */
 #cardimg{
 margin-top: 10px
 
@@ -80,4 +81,43 @@ margin-top: 10px
     text-align: center;
     font-size: 12px;
 
+}
+
+/* Portfolio page */
+
+.portfoliorow{
+    margin: 10px;
+}
+
+.portfoliocard{
+    border: none;
+    margin: 10px;
+}
+
+h5{
+    color:#ffff;
+    left: 0;
+    position: absolute;
+    bottom: 37px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+#portfoliotitles{
+    background-color:#4aaaa5;
+}
+
+/* Contact Page*/
+
+form{
+    margin-top: 10px;
+}
+
+#submitbutton{
+    background-color: #4aaaa5;
+    border:none;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
 }
